@@ -14,5 +14,5 @@
  	<dependency>
 	    <groupId>com.github.mrGHOSTWARRIOR</groupId>
 	    <artifactId>AdvancedTranslateAPI</artifactId>
-	    <version>Tag</version>
+	    <version>1.0</version>
 	</dependency>
