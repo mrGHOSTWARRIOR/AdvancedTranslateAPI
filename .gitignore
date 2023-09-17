@@ -32,9 +32,9 @@ out/
 *.tar.gz
 *.rar
 
-# Ocultar todas las clases .java excepto API.java
-*.java
-!API.java
+## Ocultar todas las clases .java excepto API.java
+#*.java
+#!API.java
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
