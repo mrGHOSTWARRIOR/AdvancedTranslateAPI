@@ -2,12 +2,10 @@
 #AdvancedTranslateAPI
 
 
-	<repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+        <repository>
+            <id>AdvancedTranslateAPI</id>
+            <url>https://github.com/mrGHOSTWARRIOR/AdvancedTranslateAPI</url>
+        </repository>
 
 
 
@@ -16,3 +14,11 @@
 	    <artifactId>AdvancedTranslateAPI</artifactId>
 	    <version>1.0</version>
 	</dependency>
+
+
+         <dependency>
+            <groupId>apa</groupId>
+            <artifactId>translateapi</artifactId>
+            <version></version>
+            <scope>provided</scope>
+        </dependency>
