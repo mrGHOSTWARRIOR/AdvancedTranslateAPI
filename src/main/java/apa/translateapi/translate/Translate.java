@@ -77,7 +77,6 @@ public class Translate {
             if (responseCode == 200) {
                 BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream(), StandardCharsets.UTF_8));
 
-
                 //BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
                 StringBuilder response = new StringBuilder();
                 String inputLine;
@@ -242,7 +241,5 @@ public class Translate {
         }
         return new String(array);
     }
-
-
 
 }

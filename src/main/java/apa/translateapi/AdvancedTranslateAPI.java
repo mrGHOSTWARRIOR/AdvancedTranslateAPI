@@ -6,11 +6,10 @@ import apa.translateapi.translate.GPT3Translator;
 import apa.translateapi.translate.Translate;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
-import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 
-public final class AdvancedTranslateAPI extends JavaPlugin implements Listener {
+public final class AdvancedTranslateAPI extends JavaPlugin{
 
     private API api;
     private Translate translate;
