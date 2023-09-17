@@ -1,0 +1,9 @@
+<settings>
+    <servers>
+        <server>
+            <id>nombre-del-servidor</id>
+            <username>nombre-de-usuario-de-GitHub</username>
+            <password>TOKEN-DE-ACCESO-PERSONAL</password>
+        </server>
+    </servers>
+</settings>
