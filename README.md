@@ -11,6 +11,6 @@
          <dependency>
             <groupId>apa</groupId>
             <artifactId>translateapi</artifactId>
-            <version></version>
+            <version>1.0</version>
             <scope>provided</scope>
         </dependency>
