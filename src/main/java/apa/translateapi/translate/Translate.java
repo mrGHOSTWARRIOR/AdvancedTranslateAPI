@@ -54,7 +54,6 @@ public class Translate {
                     .replaceAll("&n", "`19")
                     .replaceAll("&o", "`20")
                     .replaceAll("&r", "#21");
-
             Matcher matcher = pattern.matcher(textToTranslate);
             while (matcher.find()) {
                 String color = textToTranslate.substring(matcher.start(), matcher.end());
@@ -95,7 +94,7 @@ public class Translate {
                 String textToSend = translationObject.get("translatedText").getAsString();
 
                 //REMOVE @@
-                Pattern patternFINDER = Pattern.compile("@@(\\w+)@@");
+                Pattern patternFINDER = Pattern.compile("@@(\\w+@@)");
                 Matcher matcherFinder = patternFINDER.matcher(textToSend);
                 textToSend = matcherFinder.replaceAll("$1");
 
