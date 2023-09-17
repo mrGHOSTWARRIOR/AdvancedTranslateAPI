@@ -2,5 +2,4 @@ apa\translateapi\translate\GPT3Translator.class
 apa\advancedtranslateapi\api\API.class
 apa\translateapi\AdvancedTranslateAPI.class
 apa\translateapi\translate\Translate.class
-apa\advancedtranslateapi\api\util\ChatUtils.class
 apa\translateapi\manager\ConfigFileManager.class

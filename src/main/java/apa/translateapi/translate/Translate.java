@@ -70,7 +70,6 @@ public class Translate {
                             + "&q=" + textToTranslateReady;
             Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes(
                     '&', "&2URL: " + url));
-            System.out.println("URL: " + url);
             URL obj = new URL(url);
             HttpURLConnection con = (HttpURLConnection)obj.openConnection();
             con.setRequestMethod("GET");
