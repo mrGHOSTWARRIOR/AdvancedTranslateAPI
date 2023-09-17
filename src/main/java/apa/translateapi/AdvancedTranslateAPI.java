@@ -21,7 +21,8 @@ public final class AdvancedTranslateAPI extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f---------------------------------"));
-        Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&2&lLoading &e&lAdvancedTranslateAPI!"));
+        Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&',
+                "&2&lLoading &e&lAdvancedTranslateAPI! &2by &fmrGHOSTWARRIOR"));
 
         configFileManager = new ConfigFileManager(this);
         configFileManager.setupConfig();

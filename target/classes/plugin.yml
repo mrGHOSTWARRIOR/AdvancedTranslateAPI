@@ -1,0 +1,6 @@
+name: AdvancedTranslateAPI
+version: '1.0'
+main: apa.translateapi.AdvancedTranslateAPI
+api-version: '1.19'
+authors: [ mrGHOSTWARRIOR ]
+description: This plugin allows you to translate your server!
