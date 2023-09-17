@@ -8,14 +8,6 @@
         </repository>
 
 
-
- 	<dependency>
-	    <groupId>com.github.mrGHOSTWARRIOR</groupId>
-	    <artifactId>AdvancedTranslateAPI</artifactId>
-	    <version>1.0</version>
-	</dependency>
-
-
          <dependency>
             <groupId>apa</groupId>
             <artifactId>translateapi</artifactId>
