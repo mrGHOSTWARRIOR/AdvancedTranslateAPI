@@ -1,17 +1,12 @@
 package apa.translateapi.translate;
 
 import apa.translateapi.AdvancedTranslateAPI;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.theokanning.openai.OpenAiResponse;
-import com.theokanning.openai.client.OpenAiApi;
 import com.theokanning.openai.completion.CompletionRequest;
 import com.theokanning.openai.service.OpenAiService;
-import org.json.JSONObject;
 
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.nio.charset.StandardCharsets;
 import java.time.Duration;
 import java.util.*;
 
