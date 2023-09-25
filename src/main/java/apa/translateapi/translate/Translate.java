@@ -4,8 +4,6 @@ import apa.translateapi.AdvancedTranslateAPI;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -68,8 +66,7 @@ public class Translate {
                             + "&source=" + sourceLang
                             + "&target=" + targetLang
                             + "&q=" + textToTranslateReady;
-            Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes(
-                    '&', "&2URL: " + url));
+            //Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&2URL: " + url));
             URL obj = new URL(url);
             HttpURLConnection con = (HttpURLConnection)obj.openConnection();
             con.setRequestMethod("GET");
@@ -132,8 +129,7 @@ public class Translate {
 
                 return readyToSend;
             }
-            Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes(
-                    '&', "&cHTTP GET request failed with response code: " + responseCode));
+            //Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&cHTTP GET request failed with response code: " + responseCode));
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -192,8 +188,7 @@ public class Translate {
                 JsonObject detectionObject = innerArray.get(0).getAsJsonObject();
                 return detectionObject.get("language").getAsString();
             }
-            Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes(
-                    '&', "&cHTTP GET request failed with response code: " + responseCode));
+            //Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&cHTTP GET request failed with response code: " + responseCode));
         } catch (Exception e) {
             e.printStackTrace();
         }

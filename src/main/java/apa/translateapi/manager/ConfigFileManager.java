@@ -22,7 +22,7 @@ public class ConfigFileManager {
     }
 
 
-    public String getApiKey() { return configFile.getString("api-key"); }
+    public String getApiKey() { return configFile.getString("google-api-key"); }
     public String getGptAPIKEY() { return configFile.getString("gpt-api-key"); }
 
 }

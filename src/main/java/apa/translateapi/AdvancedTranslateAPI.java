@@ -6,16 +6,15 @@ import apa.translateapi.translate.GPT3Translator;
 import apa.translateapi.translate.Translate;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
+import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
-
-public final class AdvancedTranslateAPI extends JavaPlugin{
+public final class AdvancedTranslateAPI extends JavaPlugin implements Listener {
 
     private API api;
     private Translate translate;
     private ConfigFileManager configFileManager;
     private GPT3Translator gpt3Translator;
-
 
     @Override
     public void onEnable() {
@@ -42,5 +41,6 @@ public final class AdvancedTranslateAPI extends JavaPlugin{
     public Translate getTranslate()  { return translate; }
     public ConfigFileManager getConfigFileManager() { return configFileManager; }
     public GPT3Translator getGpt3Translator() { return gpt3Translator; }
+
 
 }

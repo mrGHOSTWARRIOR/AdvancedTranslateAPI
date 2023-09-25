@@ -13,12 +13,16 @@ public class API {
         this.advancedTranslateAPI = advancedTranslateAPI;
     }
 
-    public String translate(String text, String sourceLang, String targetLang) {
+    public String translateGoogle(String text, String sourceLang, String targetLang) {
         return advancedTranslateAPI.getTranslate().translate(text, sourceLang, targetLang);
     }
 
-    public String getLanguage(String text) {
+    public String getLanguageGoogle(String text) {
         return advancedTranslateAPI.getTranslate().getLanguage(text);
+    }
+
+    public String translateGPT3(String text, String sourceLang, String targetLang) {
+        return advancedTranslateAPI.getGpt3Translator().translateGPT3(text, sourceLang, targetLang);
     }
 
 
