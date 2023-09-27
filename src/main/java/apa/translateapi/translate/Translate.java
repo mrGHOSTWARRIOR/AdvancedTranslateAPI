@@ -18,9 +18,9 @@ import java.util.regex.Pattern;
 public class Translate {
 
     private final AdvancedTranslateAPI advancedTranslateAPI;
-    private final String apiKey;
     public static Pattern pattern = Pattern.compile("#[a-fA-F0-9]{6}");
     public static Pattern patternConvertBack = Pattern.compile("~[a-fA-F0-9]{6}~");
+    private final String apiKey;
 
     public Translate(AdvancedTranslateAPI advancedTranslateAPI, String apiKey) {
         this.advancedTranslateAPI = advancedTranslateAPI;
